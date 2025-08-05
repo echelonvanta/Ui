@@ -4907,19 +4907,19 @@ function Compkiller:SetTheme(name)
 		};
 	elseif name == "Default" then
 		Compkiller.Colors = {
-			Highlight = Color3.fromRGB(17, 238, 253),
-			Toggle = Color3.fromRGB(14, 203, 213),
-			Risky = Color3.fromRGB(251, 255, 39),
-			BGDBColor = Color3.fromRGB(22, 24, 29),
-			BlockColor = Color3.fromRGB(28, 29, 34),
-			StrokeColor = Color3.fromRGB(37, 38, 43),
-			SwitchColor = Color3.fromRGB(255, 255, 255),
-			DropColor = Color3.fromRGB(33, 35, 39),
-			MouseEnter = Color3.fromRGB(55, 58, 65),
-			BlockBackground = Color3.fromRGB(39, 40, 47),
-			LineColor = Color3.fromRGB(65, 65, 65),
-			HighStrokeColor = Color3.fromRGB(55, 56, 63),
-		};
+	Highlight = Color3.fromRGB(200, 0, 0),         -- Parlak kırmızı vurgu
+	Toggle = Color3.fromRGB(255, 255, 255),        -- Beyaz toggle
+	Risky = Color3.fromRGB(255, 50, 50),           -- Tehlikeli alanlar için kırmızımsı
+	BGDBColor = Color3.fromRGB(10, 10, 10),        -- Arka plan siyah
+	BlockColor = Color3.fromRGB(20, 20, 20),       -- Blok rengi koyu siyah
+	StrokeColor = Color3.fromRGB(100, 0, 0),       -- Koyu kırmızı çizgi
+	SwitchColor = Color3.fromRGB(255, 255, 255),   -- Beyaz switch
+	DropColor = Color3.fromRGB(30, 30, 30),        -- Düşme alanı koyu
+	MouseEnter = Color3.fromRGB(80, 0, 0),         -- Üzerine gelince kırmızımsı
+	BlockBackground = Color3.fromRGB(15, 15, 15),  -- Koyu arka plan
+	LineColor = Color3.fromRGB(150, 0, 0),         -- Çizgiler için kırmızı
+	HighStrokeColor = Color3.fromRGB(180, 0, 0),   -- Daha parlak kırmızı çizgi
+};
 	elseif name == "Dark Blue" then
 		Compkiller.Colors = {
 			["BGDBColor"] = Color3.new(0.0393817, 0.0754204, 0.165517),
