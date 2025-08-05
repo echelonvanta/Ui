@@ -4907,18 +4907,18 @@ function Compkiller:SetTheme(name)
 		};
 	elseif name == "Default" then
 		Compkiller.Colors = {
-	Highlight = Color3.fromRGB(200, 0, 0),         -- Parlak kırmızı vurgu
-	Toggle = Color3.fromRGB(255, 255, 255),        -- Beyaz toggle
-	Risky = Color3.fromRGB(255, 50, 50),           -- Tehlikeli alanlar için kırmızımsı
-	BGDBColor = Color3.fromRGB(10, 10, 10),        -- Arka plan siyah
-	BlockColor = Color3.fromRGB(20, 20, 20),       -- Blok rengi koyu siyah
-	StrokeColor = Color3.fromRGB(100, 0, 0),       -- Koyu kırmızı çizgi
-	SwitchColor = Color3.fromRGB(255, 255, 255),   -- Beyaz switch
-	DropColor = Color3.fromRGB(30, 30, 30),        -- Düşme alanı koyu
-	MouseEnter = Color3.fromRGB(80, 0, 0),         -- Üzerine gelince kırmızımsı
-	BlockBackground = Color3.fromRGB(15, 15, 15),  -- Koyu arka plan
-	LineColor = Color3.fromRGB(150, 0, 0),         -- Çizgiler için kırmızı
-	HighStrokeColor = Color3.fromRGB(180, 0, 0),   -- Daha parlak kırmızı çizgi
+	Highlight = Color3.fromRGB(255, 60, 60),         -- Parlak kırmızı vurgu
+	Toggle = Color3.fromRGB(230, 230, 230),          -- Açık gri / beyaz toggle
+	Risky = Color3.fromRGB(255, 85, 85),             -- Tehlikeli için açık kırmızı
+	BGDBColor = Color3.fromRGB(15, 15, 15),          -- Ana arka plan koyu siyah
+	BlockColor = Color3.fromRGB(25, 25, 25),         -- Bloklar için daha koyu siyah
+	StrokeColor = Color3.fromRGB(80, 0, 0),          -- Koyu kırmızı kenar
+	SwitchColor = Color3.fromRGB(255, 255, 255),     -- Beyaz switch noktası
+	DropColor = Color3.fromRGB(30, 30, 30),          -- Drop kutusu arka plan
+	MouseEnter = Color3.fromRGB(100, 20, 20),        -- Üzerine gelince koyu kırmızı vurgu
+	BlockBackground = Color3.fromRGB(20, 20, 20),    -- Blok arkaplan
+	LineColor = Color3.fromRGB(120, 0, 0),           -- Kırmızı çizgiler
+	HighStrokeColor = Color3.fromRGB(200, 0, 0),     -- Parlak kırmızı çizgi
 };
 	elseif name == "Dark Blue" then
 		Compkiller.Colors = {
